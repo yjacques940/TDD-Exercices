@@ -18,7 +18,7 @@ namespace TestsUnitairesExercices.AtmFromScratch
 		}
 
 		[Test]
-		public void CompteVide_QuandDemanderRetrait_DevraitRetournerCompteVide()
+		public void CompteVide_QuandDemanderRetrait_DevraitPasRetirerArgent()
 		{
 			var compteDeBanque = new CompteDeBanque(0);
 
@@ -28,7 +28,7 @@ namespace TestsUnitairesExercices.AtmFromScratch
 		}
 
 		[Test]
-		public void CompteAvecArgent_QuandDemanderRetrait_DevraitRetournerComptePeutRetirer()
+		public void CompteAvecArgent_QuandDemanderRetrait_DevraitRetirerArgent()
 		{
 			var compteDeBanque = new CompteDeBanque(100);
 

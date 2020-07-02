@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DevExpress.RichEdit.Export;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using System;
 
 namespace TestsUnitairesExercices.Cible
 {
