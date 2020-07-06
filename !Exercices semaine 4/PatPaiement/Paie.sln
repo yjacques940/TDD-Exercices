@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-PaieBanqueAcme", "CSharp\CSharp-Paie-BanqueAcme\CS-PaieBanqueAcme.csproj", "{C53441CA-B34F-4CB3-8E2A-BD6E76797688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-PaieDomain", "CSharp\CSharp-Paie-Domain\CS-PaieDomain.csproj", "{3AE47CC9-FC29-403A-8F08-9D60793D878A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS-PaieDomainTest", "CSharp\CSharp-Paie-Domain-Test\CS-PaieDomainTest.csproj", "{03B31DB2-9A9E-4B0F-9BB1-FFDE1BAA0550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D348DE21-8676-40EE-81FC-A62EB5CB384D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C53441CA-B34F-4CB3-8E2A-BD6E76797688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53441CA-B34F-4CB3-8E2A-BD6E76797688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53441CA-B34F-4CB3-8E2A-BD6E76797688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53441CA-B34F-4CB3-8E2A-BD6E76797688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE47CC9-FC29-403A-8F08-9D60793D878A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE47CC9-FC29-403A-8F08-9D60793D878A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE47CC9-FC29-403A-8F08-9D60793D878A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE47CC9-FC29-403A-8F08-9D60793D878A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B31DB2-9A9E-4B0F-9BB1-FFDE1BAA0550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B31DB2-9A9E-4B0F-9BB1-FFDE1BAA0550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B31DB2-9A9E-4B0F-9BB1-FFDE1BAA0550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B31DB2-9A9E-4B0F-9BB1-FFDE1BAA0550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C5010B8-F5A0-4F66-B432-A6DA6D9C39AB}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Paie-Corrige.vsmdi
+	EndGlobalSection
+EndGlobal
